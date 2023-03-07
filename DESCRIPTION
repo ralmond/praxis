@@ -1,0 +1,28 @@
+Package: praxis
+Type: Package
+Title: Transition models for Instructions
+Version: 0.1.0
+Author: Russell Almond
+Maintainer: Russell Almond <ralmond@fsu.edu>
+Authors@R: 
+    person(given = "Russell",
+           family = "Almond",
+           role = c("aut", "cre"),
+           email = "ralmond@fsu.edu",
+           comment = c(ORCID = "0000-0002-8876-9337"))
+Description: Builds transition matrixes for Learning and Forgetting processes
+License: Artistic 2.0
+Imports: CPTtools
+Suggests:  ggplot2,
+           knitr,
+           rmarkdown,
+           tidyr
+VignetteBuilder:  knitr
+Support: c('National Scient Foundation grant "Mathematical Learning via
+   Architectual Design and Modeling Using E-Rebuild." (\#1720533,
+   Fengfeng Ke, PI)')
+
+
+           
+Encoding: UTF-8
+LazyData: true
